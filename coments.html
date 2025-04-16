@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <h1>Contacto</h1>
+    <section class="form-register">
+    <h4>Formulario De Consulta</h4>
+        <form action="/submit-comment" method="post"></form>
+            <label for="nombre">Nombre:</label>
+            <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+            
+            <label for="apellido">Apellido:</label>
+            <input class="controls" type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
+            
+            <label for="email">Email:</label>
+            <input class="controls" type="email" name="email" id="email" placeholder="Ingrese su email" required>
+            
+            <label for="comentarios">Consulta:</label>
+            <textarea class="controls" name="comentarios" id="comentarios" placeholder="¿Cual es su consulta?" required></textarea>
+            
+            <button class="controls" type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
