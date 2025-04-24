@@ -6,7 +6,7 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .body{
-    background-color: aqua;
+    background-color: #000;
 }
 
 
@@ -31,7 +31,7 @@
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid #1f53c5;
+    border: 1px solid #03bd03;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     color: white;
@@ -52,7 +52,7 @@
 }
 .form-register .botons {
     width: 100%;
-    background: #1f53c5;
+    background: #03bd03;
     border: none;
     padding: 12px;
     color: white;

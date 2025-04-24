@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <h1>hola mundo</h1>
-    <h2>prueba</h2>
+    <h1>Ingresar a mi Cuenta</h1>
+    <section class="form-register">
+    <h4>Iniciar sesion</h4>
+        <form action="/submit-comment" method="post"></form>
+            
+            <label for="email">Email:</label>
+            <input class="controls" type="email" name="email" id="email" placeholder="Ingrese su email" required>
+            
+            <label for="Contraseña">Contraseña:</label>
+            <input class="controls" type="password" name="Contraseña" id="Contraseña" placeholder="Ingrese su Contraseña" required>
+            
+            <button class="controls" type="submit">Enviar</button>
+            
+        </form>
+    </section>
 </body>
 </html>
